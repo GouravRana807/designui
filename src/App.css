@@ -28,6 +28,87 @@
   color: #61dafb;
 }
 
+
+
+/*  */
+
+
+.textsm{
+  font-size: 1.5rem;
+}
+.textsm1{
+  font-size: 0.8rem;
+}
+.textsm2{
+  font-size: 1.2rem;
+}
+.textlg{
+  font-size: 5.3rem;
+}
+.textlg1{
+  font-size: 2.3rem;
+}
+
+.fontw{
+  font-weight: 500;
+}
+.fontw1{
+  font-weight: 900;
+}
+.fontw2{
+  font-weight: 700;
+}
+
+.imgsize{
+  height: 29vh;
+}
+.rom{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  /* background-color: rgb(12, 111, 197); */
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.width{
+  width: 25vw;
+}
+
+.ik{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
+}
+.inputw{
+  width: 295px;
+  height: 40px;
+}
+.bgi{
+  
+
+  background: linear-gradient(rgb(41 40 44 / 51%), rgb(34 33 33 / 55%)),
+    url(../public/img/img4.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+@media screen and (max-width: 1172px) {
+.med{
+  flex-direction: column;
+}
+
+.iop{
+  width: 9vw;
+}
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
